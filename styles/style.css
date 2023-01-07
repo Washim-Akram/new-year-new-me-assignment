@@ -1,0 +1,40 @@
+/* Basic Utilities */
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* Header Section Styles */
+header {
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 808px; */
+  padding: 215px 230px 215px 0px;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #151414;
+  margin-bottom: 24px;
+}
+header p {
+  line-height: 26px;
+  text-align: right;
+  color: #444343;
+  margin-bottom: 32px;
+}
+.btn-primary {
+  height: 64px;
+  background-color: #f15b22;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 25px;
+}
+.right-align-button {
+  text-align: right;
+}
