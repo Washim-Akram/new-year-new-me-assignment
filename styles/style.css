@@ -21,7 +21,6 @@ header {
   background-image: url("../images/banner/banner1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 808px; */
   padding: 215px 230px 215px 0px;
   margin-bottom: 130px;
 }
@@ -63,4 +62,106 @@ header p {
 .previous-year-section ul li {
   margin-bottom: 8px;
   color: #444343;
+}
+
+/* My Plans Section Starts */
+.my-plans-section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.my-plans-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+}
+.my-plan {
+  text-align: center;
+}
+.my-plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 16px;
+}
+.my-plan-subtitle {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+  margin-top: 16px;
+}
+
+/* Positive Mindset Section Starts Here */
+.positive-mindset-section {
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url(../images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 230px;
+  margin-right: 230px;
+  height: 300px;
+  border-radius: 8px;
+}
+.positive-mindset-container {
+  padding: 59px 0px 59px 64px;
+}
+.positive-mindset-container h2 {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+/* Footer Section Starts Here */
+footer {
+  background: #151414;
+  padding: 130px 230px;
+}
+.footer-container {
+  display: flex;
+  gap: 330px;
+  justify-content: space-around;
+}
+/* footer future plan side */
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-description {
+  color: #ffffff;
+  margin: 16px 0px;
+  line-height: 26px;
+}
+.footer-icons-container {
+  margin-top: 32px;
+}
+.footer-icons-container a {
+  margin-right: 18px;
+}
+/* footer subscribe side */
+.footer-subscribe-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+.footer-subscribe-side form input[type="email"] {
+  height: 64px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 8px 0px 8px 12px;
+  background-color: #151414;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.btn-secondary {
+  height: 64px;
+  background-color: #fff;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 36px;
+  border: 0;
+  border-radius: 5px;
 }
