@@ -3,6 +3,19 @@
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+section {
+  margin-bottom: 130px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.section-description {
+  color: #444343;
+  line-height: 26px;
+  margin: 24px 0px 16px 0px;
+}
 /* Header Section Styles */
 header {
   background-image: url("../images/banner/banner1.png");
@@ -10,6 +23,7 @@ header {
   background-size: cover;
   /* height: 808px; */
   padding: 215px 230px 215px 0px;
+  margin-bottom: 130px;
 }
 header h1 {
   font-weight: 700;
@@ -37,4 +51,16 @@ header p {
 }
 .right-align-button {
   text-align: right;
+}
+
+/* previous year section starts */
+.previous-year-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 87px;
+}
+.previous-year-section ul li {
+  margin-bottom: 8px;
+  color: #444343;
 }
